@@ -281,6 +281,101 @@ footer .footer-container {
     color: #757575;
 }
 
-.hide{
+.hide {
     display: none !important;
+}
+
+
+
+@media screen and (max-width: 576px) {
+
+    .section-heading h2 {
+        font-size: 26px;
+    }
+
+    .btn-group{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    header {
+    background: url(../images/header_bg.png), #FFF8F3;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+    nav {
+        gap: 20px;
+    }
+
+    nav .menu {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #banner {
+        margin: 20px;
+        gap: 20px;
+        text-align: center;
+    }
+
+    #banner .banner-image img {
+        width: 100%;
+    }
+
+    #banner .banner-content h1 {
+        font-size: 40px;
+    }
+
+    #banner .banner-content h2 {
+        font-size: 35px;
+    }
+
+    .skills-container {
+        width: 95%;
+    }
+
+    #skills {
+        padding-top: 60px;
+    }
+
+    #about .about-container .about-info {
+        gap: 40px;
+    }
+
+    #skills .skills-container .skill-box,
+    #about .about-container .about-info,
+    footer .footer-container,
+    #resume .resume-container,
+    nav,
+    #banner {
+        flex-direction: column;
+    }
+
+    .btn-group{
+        justify-content: center;
+    }
+
+    #about .about-container {
+        padding: 20px;
+    }
+
+    .skill-box .skill-card {
+        max-width: 100%;
+    }
+
+    #resume .resume-container {
+        margin-top: 60px;
+    }
+
+    .resume-card {
+        margin-right: 10px;
+    }
+
+    .footer-container form input[type="text"],
+    .footer-container form textarea {
+
+        width: 100%;
+    }
 }
